@@ -1,0 +1,20 @@
+input{
+    width: 32px;
+    height: 32px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center; 
+}
+#w{
+    border-style: dotted;
+    
+}
+li{
+    list-style-type: none;
+}
+#ul1{
+    background-color: #7a7a7a;
+}
+h1{
+    background-color: antiquewhite;
+}

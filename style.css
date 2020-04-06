@@ -1,20 +1,40 @@
 input{
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     font-size: large;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center; 
 }
 #w{
     border-style: dotted;
     
 }
+h1{
+    color: black;
+    font-weight: bolder;
+}
+
 li{
     list-style-type: none;
+    margin-right: 2%;
 }
-#ul1{
-    background-color: #7a7a7a;
+
+body {
+    background-image: linear-gradient(to bottom, #ff7900, #ff7900, #ff7900);
+  }
+button{
+    width: 150px;
+    background-color: cadetblue;
+    height: 40px;
+    font-size: inherit;
+    font-weight: 600;
+    border-radius: 30px;
 }
-h1{
-    background-color: antiquewhite;
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#postText{
+    font-size: 20px;
+    font-weight: 600;
 }

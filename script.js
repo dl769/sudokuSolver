@@ -158,3 +158,14 @@ function appendSolution(){
     }
     $('body').append('<br>---------------------')
 }
+
+function refresh(){
+    for (let i=1; i<10; i++){
+        for (let j=1; j<10; j++){
+            var s = i*10+j;
+            field[i][j] = ""
+            $('#'+s).val(field[i][j])
+            }
+        }
+    $('#postText').html("")
+}

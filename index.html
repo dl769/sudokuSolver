@@ -4,12 +4,12 @@
 
   <link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Sudoku Solver</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js"></script>
   
 </head>
-<center><h1>***Input your sudoku below:</h1></center>
+<center><h1>***<a>Input your sudoku below</a>***</h1></center>
 <center>
 <table><ul id ="ul1">
   <li><input id = 11 type="text"><input id = 12 type="text"><input id = 13 type="text"> <input id = 14 type="text"><input id = 15 type="text"><input id = 16 type="text"> <input id = 17 type="text"><input id = 18 type="text"><input id = 19 type="text"></li>
@@ -25,11 +25,10 @@
 </ul>
 </table>
 </center>
-<center><button onclick = "solveIt()">Solve Sudoku</button></center>
+<center><button onclick = "solveIt()" >Solve Sudoku</button>&nbsp;<button onclick = "refresh()">Refresh</button></center>
 <center><p id="postText"></p></center>
   <body>
 
-<a id ="wq">c</a>
         
   </body>
 </html>
